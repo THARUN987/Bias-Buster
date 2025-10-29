@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Linkedin, Mail, Phone, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Hero = () => {
   return (
@@ -39,6 +40,16 @@ export const Hero = () => {
             >
               View My Work
             </Button>
+            <Link to="/bias-buster">
+              <Button 
+                size="lg" 
+                variant="secondary"
+                className="group"
+              >
+                <Sparkles className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
+                Try Bias Buster
+              </Button>
+            </Link>
           </div>
 
           <div className="flex gap-4 justify-center">
