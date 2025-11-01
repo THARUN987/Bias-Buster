@@ -17,7 +17,7 @@ const Index = () => {
       
       <footer className="py-8 px-4 text-center border-t border-primary/20">
         <p className="text-sm text-muted-foreground">
-          © 2024 Chejarla Sumanth Reddy. Built with React & TypeScript.
+          © 2025 Chejarla Tharun Kumar Reddy. Built with React & TypeScript.
         </p>
       </footer>
     </main>

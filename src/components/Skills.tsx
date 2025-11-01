@@ -3,23 +3,23 @@ import { Brain, Code, Database, Wrench } from "lucide-react";
 const skillCategories = [
   {
     icon: Code,
-    title: "Languages",
-    skills: ["Python", "Java", "SQL", "JavaScript", "HTML/CSS", "Scala", "Ruby"]
+    title: "Programming",
+    skills: ["Java", "Python", "C", "HTML", "CSS", "PHP"]
   },
   {
     icon: Wrench,
     title: "Frameworks & Tools",
-    skills: ["React", "Spring Boot", "Next.js", "PostgreSQL", "Jupyter Notebook"]
+    skills: ["React.js", "VS Code", "Eclipse", "GitHub", "Spring Boot"]
   },
   {
     icon: Brain,
     title: "AI/ML",
-    skills: ["Scikit-learn", "Pandas", "NumPy", "Data Preprocessing", "Feature Engineering"]
+    skills: ["TensorFlow", "PyTorch", "NLP", "Computer Vision", "Transformers (BERT)"]
   },
   {
     icon: Database,
-    title: "Development",
-    skills: ["Full Stack Development", "REST APIs", "Authentication", "Data Visualization"]
+    title: "Databases",
+    skills: ["MySQL", "MongoDB"]
   }
 ];
 

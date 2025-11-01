@@ -3,23 +3,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const experiences = [
   {
-    title: "AI Developer Intern",
-    company: "IIIT Hyderabad (Viswam.ai)",
-    location: "Hyderabad",
-    period: "Aug 2024 – Present",
-    achievements: [
-      "Develop and optimize machine learning models for early prediction of cardiac arrest in newborns, analyzing large-scale, multimodal ICU time-series data",
-      "Engineer features and implement data preprocessing pipelines for high-dimensional medical data, improving model training efficiency by 30%"
-    ]
-  },
-  {
-    title: "Java Full Stack Developer Intern",
-    company: "ISREE",
+    title: "Full Stack Developer Intern",
+    company: "Unified Mentor",
     location: "Remote",
-    period: "Feb 2024 – Apr 2024",
+    period: "April – July 2025",
     achievements: [
-      "Engineered a full-stack web application for Cliff Services using Java Spring Boot and React/Next.js, enhancing front-end responsiveness and user engagement",
-      "Implemented secure user authentication and authorization, ensuring data privacy and system security"
+      "Built a rental management platform for landlords and tenants using React.js and Spring Boot. Designed with a focus on responsive UI and mobile compatibility, ensured high scalability and smooth performance",
+      "Developed RESTful APIs for rental listings, payments, and maintenance modules. Structured the backend using controller-service-repository architecture, enabling easy extension and maintenance",
+      "Implemented secure login using token-based authentication and session storage. Integrated role-based access control for landlords and tenants, ensuring protected routes and sensitive data isolation",
+      "Optimized React state management to improve UI responsiveness. Reduced unnecessary re-renders and enabled smooth navigation. Used Axios for API communication with minimal page reloads"
     ]
   }
 ];

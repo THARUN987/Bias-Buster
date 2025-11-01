@@ -14,14 +14,14 @@ export const Hero = () => {
             Hi, I'm
           </h2>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4 bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
-            Sumanth Reddy
+            Tharun Kumar Reddy
           </h1>
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-6 font-light">
-            AI/ML Developer & Full Stack Engineer
+            AI Full Stack Developer
           </p>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
-            Energetic AI/ML enthusiast leveraging B.Tech training to build intelligent solutions. 
-            Skilled in Python, Java, React, and machine learning with a passion for creating impactful applications.
+            Computer Science undergraduate with expertise in AI Full Stack Development and strong problem-solving skills. 
+            Passionate about building user-focused products, combining technical knowledge with analytical thinking to deliver impactful solutions.
           </p>
           
           <div className="flex flex-wrap gap-4 justify-center mb-8">
@@ -54,14 +54,14 @@ export const Hero = () => {
 
           <div className="flex gap-4 justify-center">
             <a 
-              href="mailto:sumanthreddych2004@gmail.com"
+              href="mailto:tharunch369@gmail.com"
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 transition-all hover:scale-110"
               aria-label="Email"
             >
               <Mail className="w-5 h-5 text-primary" />
             </a>
             <a 
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/tharunch"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 transition-all hover:scale-110"
@@ -70,7 +70,7 @@ export const Hero = () => {
               <Linkedin className="w-5 h-5 text-primary" />
             </a>
             <a 
-              href="https://github.com"
+              href="https://github.com/tharunch"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 transition-all hover:scale-110"
@@ -79,7 +79,7 @@ export const Hero = () => {
               <Github className="w-5 h-5 text-primary" />
             </a>
             <a 
-              href="tel:6305099604"
+              href="tel:+919441993638"
               className="p-3 rounded-full border border-primary/30 hover:border-primary hover:bg-primary/10 transition-all hover:scale-110"
               aria-label="Phone"
             >

@@ -3,33 +3,58 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const education = [
   {
-    degree: "Bachelor of Technology in Computer Science and Engineering (AI/ML)",
+    degree: "Bachelor of Technology in Computer Science and Engineering (AI & ML)",
     institution: "Mohan Babu University",
-    location: "Tirupati, AP",
-    period: "Expected May 2026",
-    gpa: "8.9/10"
+    location: "Andhra Pradesh, India",
+    period: "2022 – Present",
+    gpa: "CPI: 9.14/10"
   },
   {
-    degree: "Intermediate Education",
+    degree: "Class 12 (Intermediate), MPC",
     institution: "Krishna Chaitanya Junior College",
-    location: "Board of Intermediate Education",
-    period: "Jun 2020 – March 2022",
-    gpa: "8.2/10"
+    location: "BIEAP Board",
+    period: "2022",
+    gpa: "79%"
+  },
+  {
+    degree: "Class 10 (SSC)",
+    institution: "Vasista High School",
+    location: "BSEAP Board",
+    period: "2020",
+    gpa: "99%"
   }
 ];
 
 const achievements = [
   {
-    type: "Publication",
-    title: "An Adaptive Thyroid Health Monitoring for Women",
-    publisher: "IEEE Xplore, 2025",
-    details: "Scopus Indexed • IEEE Document"
+    type: "Achievement",
+    title: "LeetCode Problem Solver",
+    publisher: "LeetCode",
+    details: "Solved 230+ problems, strengthening data structures and algorithms skills"
+  },
+  {
+    type: "Achievement",
+    title: "Mountable 100-Problem Coding Challenge",
+    publisher: "Mountable",
+    details: "Successfully completed the challenge, demonstrating consistency and problem-solving ability"
+  },
+  {
+    type: "Achievement",
+    title: "Top 10% Global Rank in Coding Contests",
+    publisher: "Codeforces, CodeChef",
+    details: "Achieved top rankings in various online coding contests"
   },
   {
     type: "Certificate",
-    title: "Java Full Stack Developer Virtual Internship",
-    publisher: "EduSkills Academy & AICTE",
-    details: "Oct - Dec 2024 (10 Weeks) • Comprehensive training in Java Full Stack Development"
+    title: "HackerRank 5-Star Badge",
+    publisher: "HackerRank",
+    details: "5-Star Badge in Problem Solving"
+  },
+  {
+    type: "Achievement",
+    title: "Hackathon & AI Projects Participation",
+    publisher: "Various Platforms",
+    details: "Actively participated in hackathons and AI-based projects, applying skills to real-world scenarios"
   }
 ];
 
@@ -66,7 +91,7 @@ export const Education = () => {
 
         <div className="flex items-center gap-3 mb-8">
           <Award className="w-7 h-7 text-primary" />
-          <h3 className="text-2xl md:text-3xl font-bold">Publications & Certificates</h3>
+          <h3 className="text-2xl md:text-3xl font-bold">Achievements & Certificates</h3>
         </div>
 
         <div className="space-y-6">

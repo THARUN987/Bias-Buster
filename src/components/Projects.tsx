@@ -4,15 +4,26 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "House Price Prediction",
-    description: "Machine learning model to predict house prices using historical housing data with advanced feature engineering and regression algorithms.",
-    technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Jupyter Notebook"],
+    title: "Bias Buster – AI-Powered Resume Language Auditor",
+    description: "NLP-powered tool to identify and eliminate biased language in resumes, improving inclusivity for job seekers.",
+    technologies: ["Python", "NLP", "Transformers", "BERT", "React"],
     achievements: [
-      "Implemented comprehensive data cleaning and feature engineering pipeline",
-      "Evaluated model using MAE and RMSE metrics with detailed visualizations",
-      "Created interactive data visualizations using Matplotlib and Seaborn"
+      "Identified and eliminated biased language in resumes using NLP and transformer models, improving inclusivity for job seekers",
+      "Delivered real-time suggestions through an intuitive web interface, enhancing user engagement and usability",
+      "Aligned the product with DEI (Diversity, Equity, Inclusion) goals, supporting fair hiring practices for organizations"
     ],
-    github: "https://github.com"
+    github: "https://github.com/tharunch/bias-buster"
+  },
+  {
+    title: "Functional Brain Tumor Mapping Using PET",
+    description: "Advanced segmentation model leveraging SE-UNet for tumor detection and metabolic analysis.",
+    technologies: ["Python", "TensorFlow", "PyTorch", "Computer Vision", "Medical Imaging"],
+    achievements: [
+      "Developing an advanced segmentation model with Squeeze-and-Excitation blocks to enhance tumor boundary detection",
+      "Integrating PET radiomics features for voxel-wise analysis to classify tumor regions into high, medium, and low metabolic zones",
+      "Generating functional heatmaps for better visualization of intra-tumor heterogeneity, supporting personalized therapy planning"
+    ],
+    github: "https://github.com/tharunch/brain-tumor-mapping"
   }
 ];
 
